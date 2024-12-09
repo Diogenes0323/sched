@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apple II Scheduler</title>
-  <!-- Link to Google Fonts for VT323 font -->
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steps to Miles Converter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="desk">
-    <div class="computer">
-      <div class="screen">
-        <div id="output"></div>
-      </div>
-      <div class="buttons">
-        <button onclick="addTask()">Add Task</button>
-        <button onclick="viewTasks()">View Tasks</button>
-        <button onclick="deleteTask()">Delete Task</button>
-      </div>
+    <div class="container">
+        <h1>Steps to Miles Converter</h1>
+        <input type="number" id="stepsInput" placeholder="Enter steps" min="0">
+        <button id="convertButton">Convert to Miles</button>
+        <p id="result">Miles: 0</p>
     </div>
-  </div>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
